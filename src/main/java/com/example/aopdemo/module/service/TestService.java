@@ -17,7 +17,7 @@ public class TestService {
      * @param name
      */
     public void testFunction(String name) {
-
+        System.out.print("this is test function");
     }
 
 }

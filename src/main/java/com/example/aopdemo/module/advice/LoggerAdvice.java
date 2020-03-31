@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoggerAdvice {
 
-    public void doAround(ProceedingJoinPoint pjp) {
+    public void doAround(ProceedingJoinPoint pjp) throws Throwable {
         //获取方法名
         Signature signature = pjp.getSignature();
         Object[] args = pjp.getArgs();
@@ -25,6 +25,11 @@ public class LoggerAdvice {
 
             System.out.println("LoggerAdvice," + "执行方法:" + signature.getName() + "参数：" + JSON.toJSONString(args));
         }
+        //pjp.proceed();
+
+
+
+
 
     }
 }
