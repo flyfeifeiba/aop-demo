@@ -7,13 +7,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @ClassName TestLoggerAdvice
- * @Description TODO
- * @Author yuanyuan.wang
+ * @Description
+ * @Author
  * @Date 2020/3/31 20:06
  * @Version 1.0
  */
 @SpringBootTest
 public class TestLoggerAdvice {
+
     @Autowired
     private TestService testService;
 

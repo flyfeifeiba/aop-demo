@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 /**
  * @ClassName TestService
  * @Description 测试类
- * @Author yuanyuan.wang
+ * @Author
  * @Date 2020/3/31 20:05
  * @Version 1.0
  */
@@ -17,7 +17,7 @@ public class TestService {
      * @param name
      */
     public void testFunction(String name) {
-        System.out.print("this is test function");
+        System.out.println("this is test function");
     }
 
 }
